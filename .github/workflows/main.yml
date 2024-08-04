@@ -1,0 +1,15 @@
+name: Main
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Broken Link Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Broken Link Check
+        uses: technote-space/broken-link-checker-action@v2

@@ -1,0 +1,14 @@
+{
+  "name": "open-source-apis",
+  "version": "1.0.0",
+  "description": "A list of open source APIs from around the world 🚀",
+  "main": "index.js",
+  "scripts": {
+    "check": "markdown-link-check ./README.md"
+  },
+  "author": "Frank Mendez",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-link-check": "^3.12.2"
+  }
+}
